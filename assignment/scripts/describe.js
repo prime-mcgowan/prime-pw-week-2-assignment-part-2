@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as a string.
+// We then create and if/else statement.
+// If the name variable is Dane the console will log 'How do you do?'.
+// If the name variable is Mary the console will log 'Hi, Mary!'.
+// Since the name variable is set to Dane, the console will log, 'How to you do?'.
 
 //CODE
 /*
@@ -45,10 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We created a variable called secret but it starts out undefined.
+// We also created a variable called code and set its value at 123.
+// If the code variable is equal to 123 (which it is originally) then the secret variable will be set to 'super'...but won't be "consoled" out.
+// We changed the value of code to 246 (the origianl code value of 123 was mulitiplied by 2).
+// The code variable will be read as less than 250, so the console will log, 'duper'.
 
 //CODE
 /*
@@ -58,7 +60,7 @@ let code = 123;
 
 if(code === 123) {
   secret = 'super';
-  code = code * 2;
+  code = code * 2;      
 }
 
 if (code > 250) {
@@ -70,10 +72,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it to true (boolean).
+// We make another variable called age and set it to 34 (number).
+// We make another variable called zip and set it to 55407 (number).
+// An if, else if, else if, else conditional/compound conditional has been created.
+
+// As the code is run here is what you would see in the console:
+// - 'You're a student on the West Coast!' (isStudent is set to true AND the zip is under 80000 at 55407)
+// - 'Welcome to Prime!' (isStudent is set to true) 
+
+// As the code is run here is what you WOULD NOT see in the console:
+// - 'What are you hobbies?' (isStudent is set to true and age is NOT less than 30, it is set at 34)
+// - 'How about the weather?' (isStudent is true so it will run the Welcom to Prime message)
 
 //CODE
 /*
