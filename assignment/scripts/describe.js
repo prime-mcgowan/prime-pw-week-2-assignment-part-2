@@ -49,7 +49,7 @@ if (name === 'Mary') {
 // We created a variable called secret but it starts out undefined.
 // We also created a variable called code and set its value at 123.
 // If the code variable is equal to 123 (which it is originally) then the secret variable will be set to 'super'...but won't be "consoled" out.
-// We changed the value of code to 246 (the origianl code value of 123 was mulitiplied by 2).
+// We changed the value of code to 246 (the origianl code value of 123 was mulitiplied by 2, which equals 246).
 // The code variable will be read as less than 250, so the console will log, 'duper'.
 
 //CODE
@@ -140,12 +140,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - colorOne should be set to 'blue'.
 let colorOne = 'red';
+//FIX - colorTwo should be set to 'red'.
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+//FIX - colorTwo should be set to 'purple' too.
+//FIX - colorOne, colorTwo = 'purple':
 }
 */
 
@@ -155,6 +159,7 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - Not totally sure here, but I think const time should be changed to let time.
 const time = 4;
 
 if (temp > 39 || time >= 4) {
@@ -170,10 +175,21 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+
+//FIX - The if statement is incorrect.
+//FIX - if (age >= minAge)
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
+
+//FIX - 'no entry' and 'enter' should be switched.
+//FIX - console.log('enter');
+        then
+        console.log('no entry');
+
+
+
 */
 
