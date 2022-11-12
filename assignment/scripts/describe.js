@@ -53,7 +53,7 @@ if (name === 'Mary') {
 // The code variable will be read as less than 250, so the console will log, 'duper'.
 
 
-//RESUBMISSION FIX
+///////*****RESUBMISSION FIX*****/////
 //The code variable is set to 123.
 //So, the computer will read the first block of code and see that code is indeed
 //equal to 123 so secret will be console logged as 'super'.
@@ -90,7 +90,7 @@ console.log(secret)
 
 // As the code is run here is what you WOULD NOT see in the console:
 
-//RESUBMISSION FIX
+///////*****RESUBMISSION FIX*****/////
 // -'You're a student on the West Coast!' (isStudent is set to true AND the zip is under 80000 at 55407)
 //I originally read the zip > 80000 wrong.
 
@@ -175,9 +175,10 @@ let temp = 40;
 const time = 4;
 
 
-//RESUBMISSION FIX
+///////*****RESUBMISSION FIX*****/////
 // || (or) needs to be changed to && (and)
 
+/*
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
